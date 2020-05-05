@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "mechokuzen"
+  },
+  "targets": {
+    "mechokuzen": {
+      "hosting": {
+        "check": [
+          "check-mechokuzen"
+        ]
+      }
+    }
+  }
+}

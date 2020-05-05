@@ -1,0 +1,16 @@
+[debug] [2020-05-05T11:40:13.807Z] ----------------------------------------------------------------------
+[debug] [2020-05-05T11:40:13.809Z] Command:       /usr/local/bin/node /usr/local/bin/firebase deploy --only hosting:
+[debug] [2020-05-05T11:40:13.809Z] CLI Version:   8.2.0
+[debug] [2020-05-05T11:40:13.809Z] Platform:      darwin
+[debug] [2020-05-05T11:40:13.809Z] Node Version:  v12.13.1
+[debug] [2020-05-05T11:40:13.810Z] Time:          Tue May 05 2020 20:40:13 GMT+0900 (GMT+09:00)
+[debug] [2020-05-05T11:40:13.810Z] ----------------------------------------------------------------------
+[debug] [2020-05-05T11:40:13.810Z] 
+[debug] [2020-05-05T11:40:13.817Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-05-05T11:40:13.817Z] > authorizing via signed-in user
+[debug] [2020-05-05T11:40:13.817Z] [iam] checking project mechokuzen for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2020-05-05T11:40:13.819Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/mechokuzen:testIamPermissions  
+ {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2020-05-05T11:40:15.945Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Tue, 05 May 2020 11:40:15 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=673","alt-svc":"h3-Q050=\":443\"; ma=2592000,h3-Q049=\":443\"; ma=2592000,h3-Q048=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2020-05-05T11:40:15.947Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/mechokuzen  
+ 
